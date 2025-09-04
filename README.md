@@ -8,7 +8,7 @@ strategy that may produce positive returns despite the handicapping effect of ta
 ## Project overview
 
 In order to implement our strategy we must first obtain datasets consisting of stocks, economic indices,
-and macro-economic variables.  Then the datasets need to be converted to a form suitable for Machine learning (ML),  
+and macro-economic variables.  Then the datasets need to be converted to a form suitable for Machine Learning (ML).  
 The stock dataset will be augmented by the financial analysis provided by the Ta-lib library.  Categorical 
 data needs to be converted to numerical data through dummy variables which are included in the features provided to 
 the ML model.  The three datasets are merged into one.  Then we apply  ML models to determine probability threshholds for trading
@@ -49,7 +49,7 @@ The code for the trading pipeline is in the  [`scripts`](scripts/) folder:
 - [`transform_data`](scripts/transform_data.py) - the truncation, adding technical indicators, and merging of data
 - [`model_prep.py`](scripts/model_prep.py) - the modeling 
 - [`simulations.py`](scripts/simulations.py) - simulations
-- [`latest_trades.py`](scripts/latest_trades.py) - show tthe latest trades and save in a csv file
+- [`latest_trades.py`](scripts/latest_trades.py) - show the latest trades and save to a csv file
 - [`pipeline.py`](scripts/pipeline.py) - run the five above scripts
 
 ## Notebooks
