@@ -68,4 +68,5 @@ The notebooks are in the [`notebooks`](notebooks/) folder and include more visua
 ## Acknowledgements 
 
  We thank Ivan Brigida for an interesting and informative course.  Much of our code here was adapted 
- from https://github.com/DataTalksClub/stock-markets-analytics-zoomcamp/blob/main/05-deployment-and-automation/%5B2025%5D_Module_05_Advanced_Strategies_And_Simulation.ipynb    
+ from https://github.com/DataTalksClub/stock-markets-analytics-zoomcamp/blob/main/05-deployment-and-automation/%5B2025%5D_Module_05_Advanced_Strategies_And_Simulation.ipynb   We hope to make further improvements to this 
+ project.
