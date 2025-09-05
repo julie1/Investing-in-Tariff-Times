@@ -22,15 +22,15 @@ There are three datasets to start.
 - seven tariff stocks with four recommended from Seeking Alpha
     https://seekingalpha.com/article/4809784-the-art-of-the-tariff-4-stocks-to-buy-the-dipand three others 
 - **econ_indices_df** consists of seven world indices, five commodities, and four currency exchange rates with USD with data from yfinance
-- **macros_df** consists of seven macro-economical indices plus three international bond rates obtained from 
+- **macros_df** consists of seven macro-economical indices plus three international bond rates obtained from FRED
    
 ## Dataset Transformations
  - we truncate the data with start date: 2000-01-01
- - Technical indicators from the Ta-lib library are added to the stocks_df dataet
+ - Technical indicators from the Ta-lib library are added to the stocks_df dataset
  - The three datasets are merged into the stocks_indices_macros_df which is saved
  - Feature sets are defined including Dummies, Numerical, and To Predict which includes the 30 day growth
- - of the asset and whether the growth is positive
- - We used a temporal split function to generate raining, validation, and test sets for Machine Learning applications
+   of the asset and whether the growth is positive
+ - We used a temporal split function to generate training, validation, and test sets for Machine Learning applications
 
 ##  Modeling
 - Decision Tree Classification, Random Forest, and a Deep Learning model were explored in the notebooks, but only the first
